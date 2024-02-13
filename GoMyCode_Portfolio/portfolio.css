@@ -58,7 +58,7 @@ section h1{
 /* section à propos */
 .apropos{
     display: flex;
-    color: white !important;
+    color: white ;
 }
 .apropos li{
     list-style: none;
@@ -67,7 +67,7 @@ section h1{
 }
 
 .apropos span{
-    font-weight: lighter !important;
+    font-weight: lighter;
 }
 .apropos ul{
 
