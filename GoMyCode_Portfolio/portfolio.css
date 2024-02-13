@@ -1,5 +1,8 @@
 
+
+/* police importée de google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* reset du body et ajout de certaines propriétés */
 body{
     margin: 0;
     padding: 0;
@@ -8,17 +11,19 @@ body{
     font-size: 20px;
 
 }
+/* style du header */
 .header{
     background-color:   #FFA500;
     
 
 }
-
+/* style de la barre de navigation */
 .nav_barre {
     display: flex;
     justify-content: end;
 
 }
+/* style des liens et des listes de la nav barre */
 .nav_barre a ,.nav_barre li{
     text-decoration: none;
     list-style: none;
@@ -29,6 +34,7 @@ body{
     font-style: normal;
     color:black ;
 }
+/* style de tous les h1 contenus dans des balises section */
 section h1{
     text-align: center;
     margin: 30px;
@@ -37,6 +43,7 @@ section h1{
     font-weight: 700;
     font-style: normal;
 }
+/* style des span de la nav barre */
 .nav_barre span{
     margin: 20px;
     font-size: 20px;
@@ -48,6 +55,7 @@ section h1{
   
 
 }
+/* section à propos */
 .apropos{
     display: flex;
     color: white !important;
@@ -57,6 +65,7 @@ section h1{
     font-size: 20px;
     margin: 20px;
 }
+
 .apropos span{
     font-weight: lighter !important;
 }
@@ -68,6 +77,7 @@ section h1{
     width: 30%;
     height: 400px;
 }
+
 .main_p{
 text-align: center;
 
